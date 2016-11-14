@@ -1,0 +1,59 @@
+body {
+  width:1000px;
+}
+
+header { 
+
+}
+
+header ul {
+  /*list-style-type: none;*/
+}
+
+
+
+footer {
+
+
+}
+
+.right{
+  float:right;
+}
+
+.left{
+  float: left;
+}
+
+.clear{
+  clear:both;
+}
+
+/*placeholders for images */
+
+#logo{
+  width: 200px;
+  height:200px;
+  background-color: #ddd;
+}
+
+.largeimage {
+  width: 1000px;
+  height: 400px;
+  background-color: #ddd;
+}
+
+.medimage {
+  width: 250px;
+  height: 250px;
+  margin:5px;
+
+  background-color: #ddd;
+}
+
+.miniimage {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  background-color: #ddd;
+}
