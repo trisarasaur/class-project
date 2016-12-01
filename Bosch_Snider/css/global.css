@@ -1,20 +1,133 @@
+/*dark blue #0b2964*/
+/*rgba(11, 41, 100, 1)*/
+/*light blue #0a9bd9*/
+/*rgba(10, 155, 217, 1)*/
+
+/*25% saturation on light blue #a3c9d9*/
+
+
 body {
   width:1000px;
+  margin: auto;
+  background-color: rgba(11, 41, 100, 1);
+  /*background-color: rgba(10, 155, 217, .8);*/
+  /*background-color: #6db9d9;*/
+  /*background-color: #a3c9d9;*/
+
+}
+
+h1 {
+  /*color: #0b2964;*/
+  color: rgba(10, 155, 217, 1);
+  font-family: Helvetica;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 36px;
+  margin-bottom:36px;
+}
+
+h2{
+  /*color: #0b2964;*/
+  color: rgba(10, 155, 217, 1);
+  font-family: Helvetica;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+p {
+  color: #0b2964;
+  font-family: Helvetica;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom:20px;
+}
+
+#content {
+  background-color: #fff;
+  /*border-left: 2px solid #0b2964;*/
+  /*border-right: 2px solid #0b2964;*/
+}
+
+#hero {
+  width: 800px;
+  margin: 0 auto;
 }
 
 header { 
-
+  width: 950px;
+  padding: 25px;
 }
 
-header ul {
-  /*list-style-type: none;*/
+header #nav {
+  padding-top: 138px;
+  /*padding-right: 25px;*/
+  width: 750px;
+  height: 30px;
 }
 
+
+
+#nav li {
+  float: left;
+  display: inline;
+  list-style-type: none;
+  background-color: #fff;
+}
+
+#nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 22px 22px;
+  display: block;
+  letter-spacing: 1px;
+  color: #0b2964;
+}
+
+
+#nav li a:hover {
+  background-color: rgba(10, 155, 217, .8);
+}
 
 
 footer {
+  background-color: rgba(11, 41, 100, .8);
+  /*background-color: rgba(10, 155, 217, 1);*/
+  /*border-top: 2px solid #0b2964;*/
+  border-top: 2px solid rgba(10, 155, 217, 1);
+  padding: 25px 25px 35px 25px;
+}
 
 
+#social{
+  
+}
+
+#social li {
+  list-style-type: none;
+  display: inline;
+}
+#social img {
+  margin-right: 25px;
+}
+
+#contact {
+ text-align: right;
+ 
+}
+
+#contact li {
+  list-style-type: none;
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #fff;
+  margin: 10px;
 }
 
 .right{
@@ -29,18 +142,26 @@ footer {
   clear:both;
 }
 
+
+
+
+
+
 /*placeholders for images */
 
 #logo{
   width: 200px;
-  height:200px;
-  background-color: #ddd;
+  /*height:200px;*/
+  /*height is actual 153.75*/
+  height: auto;
+  background-color: #fff;
+  float: left;
 }
 
 .largeimage {
   width: 1000px;
-  height: 400px;
-  background-color: #ddd;
+  height: 500px;
+  /*background-color: #ddd;*/
 }
 
 .medimage {
@@ -48,12 +169,13 @@ footer {
   height: 250px;
   margin:5px;
 
-  background-color: #ddd;
+  /*background-color: #ddd;*/
 }
 
 .miniimage {
   width: 25px;
   height: 25px;
   margin: 5px;
-  background-color: #ddd;
+  background-color: #fff;
 }
+
