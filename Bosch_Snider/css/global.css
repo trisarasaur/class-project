@@ -164,17 +164,16 @@ footer {
 /*placeholders for images */
 
 #logo{
-  width: 200px;
-  /*height:200px;*/
+  /*width: 200px;*/
   /*height is actual 153.75*/
-  height: auto;
-  background-color: #fff;
-  float: left;
+  /*height: auto;*/
+  /*background-color: #fff;*/
+  /*float: left;*/
 }
 
 .largeimage {
-  width: 1000px;
-  height: 600px;
+  /*width: 1000px;*/
+  /*height: 600px;*/
   /*height: auto;*/
   /*background-color: #ddd;*/
 }
@@ -188,12 +187,13 @@ footer {
 }
 
 .miniimage {
-  width: 30px;
-  height: 30px;
+  /*width: 30px;*/
+  /*height: 30px;*/
   margin: 5px;
-  /*background-color: #fff;*/
+  /*background-color: #fff;
   /*background-color: rgba(255, 255, 255, .5)*/
 }
+
 .estimateimage{
   width:350px;
   height: 500px;
