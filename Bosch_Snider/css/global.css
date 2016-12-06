@@ -5,11 +5,18 @@
 
 /*25% saturation on light blue #a3c9d9*/
 
+/*Arimo:400,700|Teko:400,600*/
+/*body*/
+/*'Arimo', Helvetica, sans-serif;*/
+/*h1 h2*/
+/*'Teko', Helvetica, sans-serif;*/
+
 
 body {
   width:1000px;
   margin: auto;
   background-color: rgba(11, 41, 100, 1);
+
   /*background-color: rgba(10, 155, 217, .8);*/
   /*background-color: #6db9d9;*/
   /*background-color: #a3c9d9;*/
@@ -19,31 +26,34 @@ body {
 h1 {
   /*color: #0b2964;*/
   color: rgba(10, 155, 217, 1);
-  font-family: Helvetica;
-  font-size: 24px;
+  font-family: 'Teko', Helvetica, sans-serif;
+  font-size: 36px;
   text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 36px;
-  margin-bottom:36px;
+  font-weight: 600;
+  /*margin-top: 36px;*/
+  margin-bottom:30px;
 }
 
 h2{
   /*color: #0b2964;*/
   color: rgba(10, 155, 217, 1);
-  font-family: Helvetica;
-  font-size: 20px;
+  font-family: 'Teko', Helvetica, sans-serif;
+  font-size: 26px;
   text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 30px;
-  margin-bottom:30px;
+  font-weight: 600;
+  /*margin-top: 30px;*/
+  margin-bottom:20px;
 }
 
 p {
   color: #0b2964;
-  font-family: Helvetica;
+  font-family: 'Arimo', Helvetica, sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  margin-top: 10px;
-  margin-bottom:20px;
+  letter-spacing: 1px;
+  line-height: 135%;
+  /*margin-top: 10px;*/
+  margin-bottom:30px;
 }
 
 #content {
@@ -52,10 +62,10 @@ p {
   /*border-right: 2px solid #0b2964;*/
 }
 
-#hero {
+/*#hero {
   width: 800px;
   margin: 0 auto;
-}
+}*/
 
 header { 
   width: 950px;
@@ -76,14 +86,15 @@ header #nav {
   display: inline;
   list-style-type: none;
   background-color: #fff;
+
 }
 
 #nav a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Helvetica;
+  font-family: 'Arimo', Helvetica, sans-serif;;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 700;
   padding: 22px 22px;
   display: block;
   letter-spacing: 1px;
@@ -93,6 +104,7 @@ header #nav {
 
 #nav li a:hover {
   background-color: rgba(10, 155, 217, .8);
+  border-radius: 5px 5px 0 0;
 }
 
 
@@ -124,10 +136,12 @@ footer {
 
 #contact li {
   list-style-type: none;
-  font-family: Helvetica;
-  font-size: 14px;
+  font-family: 'Arimo', Helvetica, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 16px;
   color: #fff;
-  margin: 10px;
+  margin: 10px 0 10px 0;
 }
 
 .right{
@@ -160,22 +174,38 @@ footer {
 
 .largeimage {
   width: 1000px;
-  height: 500px;
+  height: 600px;
+  /*height: auto;*/
   /*background-color: #ddd;*/
 }
 
 .medimage {
-  width: 250px;
-  height: 250px;
-  margin:5px;
-
+  width: 245px;
+  height: 245px;
+  margin:10px;
+  border-radius: 10px;
   /*background-color: #ddd;*/
 }
 
 .miniimage {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   margin: 5px;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  /*background-color: rgba(255, 255, 255, .5)*/
+}
+.estimateimage{
+  width:350px;
+  height: 500px;
+  border-radius: 10px;
+
+}
+
+.socialimage {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .5);
 }
 

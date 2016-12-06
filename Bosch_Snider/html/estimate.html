@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
 
     <!-- font links here -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Teko:400,600" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
@@ -21,45 +22,50 @@
         <h1>Schedule an Estimate</h1>
 
         <!-- image or images here -->
-        <img src="../images/commercial_lrg.jpg" class="medimage left">
-        <img src="../images/kitchen_lrg.jpg" class="medimage left">
-        <img src="../images/modern_lrg.jpg" class="medimage left">
+        
+        <div id="images" class="left">
+          <!-- <img src="../images/kitchen_lrg.jpg" class="estimateimage"> -->
+          <img src="../images/commercial_lrg.jpg" class="medimage">
+          <img src="../images/kitchen_lrg.jpg" class="medimage">
+          <img src="../images/modern_lrg.jpg" class="medimage">
+        </div>
+        
+        <div id="text" class="right">
+
+          <h2>How the Process Works</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor elit, facilisis non nunc quis, maximus aliquet tellus. Vivamus in blandit enim, consectetur ornare turpis.  </p>
+
+          <p>Ut eu risus at metus euismod sagittis. Maecenas sed vehicula velit. Maecenas at elit auctor, imperdiet libero. Sed ut lorem sagittis, gravida mi quis, finibus neque.</p>
+
+        
+
+          <h2>Send us an email!</h2>
+
+          <form>
+
+            <div id="name">
+              <label>Name</label>
+              <input type="text" name="name" >
+            </div>
+
+            <div id="email">
+              <label>Email</label>
+              <input type="email" name="email">
+            </div>
+
+            <div id="message">
+              <label>Message</label>
+              <textarea name="message" rows="15" cols="30"></textarea>
+            </div>
+
+            <div id="submit">
+              <input type="submit">
+            </div>
+
+          </form>
+        </div>
 
         <div class="clear"></div>
-
-
-        <h2>How the Process Works</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut turpis vitae purus hendrerit vulputate. Sed tortor elit, facilisis non nunc quis, maximus aliquet tellus. Vivamus magna mauris, varius nec accumsan et, scelerisque id erat. Vivamus in blandit enim, consectetur ornare turpis.  </p>
-
-        <p>Ut eu risus at metus euismod sagittis. Maecenas sed vehicula velit. Maecenas at elit auctor, malesuada ligula vitae, imperdiet libero. Sed ut lorem sagittis, gravida mi quis, finibus neque.</p>
-
-        <h2>Send us an email!</h2>
-
-        <form>
-
-          <div id="name">
-            <label>Name:</label>
-            <input type="text" name="name" >
-          </div>
-
-          <div id="email">
-            <label>Email:</label>
-            <input type="email" name="email">
-          </div>
-
-          <div id="message">
-            <label>Message:</label>
-            <textarea name="message" rows="15" cols="30">
-            </textarea>
-          </div>
-
-          <div id="submit">
-            <input type="submit">
-          </div>
-
-        </form>
-
-
 
       </div>
     

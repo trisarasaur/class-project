@@ -1,3 +1,75 @@
 #hero {
-  
+  width: 800px;
+  margin: 0 auto;
+}
+
+#images{
+  width: 400px;
+}
+
+#text {
+  width: 400px;
+  margin-bottom: 60px;
+}
+
+label {
+  width: 200px;
+  display: block;
+  color: #0b2964;
+  font-family: 'Arimo', Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 0 0 5px 0;
+}
+
+input{
+  width: 200px;
+  height: 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 3px solid #0a9bd9;
+  border-radius: 5px;
+  margin: 5px 0 25px 0;
+
+}
+input:focus{
+  border: 3px solid #0b2964;
+  /*background-color: #000;*/
+}
+
+
+
+textarea {
+  width: 350px;
+  height: 300px;
+  resize:none;
+  padding: 5px 10px;
+  margin: 5px 0 25px 0;
+  border: 3px solid #0a9bd9;
+  /*padding: 5px;*/
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+textarea:focus{
+  border: 3px solid #0b2964;
+}
+
+input[type=submit] {
+  height: 50px;
+  width: 150px;
+  border: none;
+  background-color: #0a9bd9;
+  font-family: 'Teko', Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+input[type=submit]:focus {
+  border: 3px solid #0b2964;
 }
