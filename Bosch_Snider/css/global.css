@@ -70,16 +70,19 @@ p {
 header { 
   width: 950px;
   padding: 25px;
+  border-bottom: 3px solid #0b2964;
 }
 
 header #nav {
-  padding-top: 138px;
+  padding-top: 124px;
   /*padding-right: 25px;*/
   width: 750px;
   height: 30px;
 }
 
-
+#nav ul {
+  margin: 0 0 0 25px;
+}
 
 #nav li {
   float: left;
@@ -95,7 +98,7 @@ header #nav {
   font-family: 'Arimo', Helvetica, sans-serif;;
   font-size: 14px;
   font-weight: 700;
-  padding: 22px 22px;
+  padding: 22px 19px;
   display: block;
   letter-spacing: 1px;
   color: #0b2964;
@@ -105,6 +108,16 @@ header #nav {
 #nav li a:hover {
   background-color: rgba(10, 155, 217, .8);
   border-radius: 5px 5px 0 0;
+}
+
+#selected {
+  background-color: rgba(11, 41, 100, 1);
+  border-radius: 5px 5px 0 0;
+
+}
+
+#nav a#selected {
+  color: #fff;
 }
 
 
