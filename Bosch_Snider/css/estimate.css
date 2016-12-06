@@ -1,6 +1,6 @@
 #hero {
   width: 800px;
-  margin: 0 auto;
+  margin: 25px auto 100px auto;
 }
 
 #images{
@@ -9,7 +9,7 @@
 
 #text {
   width: 400px;
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
 }
 
 label {
