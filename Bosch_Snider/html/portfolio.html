@@ -6,13 +6,30 @@
     <!-- font links here -->
     <link href="https://fonts.googleapis.com/css?family=Arimo:400,700|Teko:400,600" rel="stylesheet">
 
+    <!-- css links -->
     <link rel="stylesheet" type="text/css" href="../css/reset.css">
     <link rel="stylesheet" type="text/css" href="../css/global.css">
     <link rel="stylesheet" type="text/css" href="../css/portfolio.css">
 
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="../fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="../fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
     <title>James &amp; Sons | Portfolio</title>
+    
   </head>
+
   <body>
+
+    <!-- load fancybox on document load -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $(".fancybox").fancybox();
+        });
+    </script>
+
     <div id="content">
         <header>
         </header>
@@ -23,15 +40,27 @@
               <h1>Residential Projects</h1>
 
                 <!-- images here -->
-                <img src="../images/cabin_deck_lrg.jpg" class="medimage left">
-                <img src="../images/cabin_exterior_lrg.jpg" class="medimage left">
-                <img src="../images/cabin_lake_lrg.jpg" class="medimage left">
+                <a class="fancybox" rel="group" href="../images/cabin_deck_lrg.jpg">
+                    <img src="../images/cabin_deck_lrg.jpg" class="medimage left">
+                </a>
+                <a class="fancybox" rel="group" href="../images/cabin_exterior_lrg.jpg">
+                    <img src="../images/cabin_exterior_lrg.jpg" class="medimage left">
+                </a>
+                <a class="fancybox" rel="group" href="../images/cabin_lake_lrg.jpg">
+                    <img src="../images/cabin_lake_lrg.jpg" class="medimage left">
+                </a>
 
                 <div class="clear"></div>
 
-                <img src="../images/cabin_fire_lrg.jpg" class="medimage left">
-                <img src="../images/cabin_interior_lrg.jpg" class="medimage left">
-                <img src="../images/lodge_lrg.jpg" class="medimage left">
+                <a class="fancybox" rel="group" href="../images/cabin_fire_lrg.jpg">
+                    <img src="../images/cabin_fire_lrg.jpg" class="medimage left">
+                </a>
+                <a class="fancybox" rel="group" href="../images/cabin_interior_lrg.jpg">
+                    <img src="../images/cabin_interior_lrg.jpg" class="medimage left">
+                </a>
+                <a class="fancybox" rel="group" href="../images/lodge_lrg.jpg">
+                    <img src="../images/lodge_lrg.jpg" class="medimage left">
+                </a>
 
                 <div class="clear"></div>
             </div>
@@ -42,9 +71,16 @@
 
                 <!-- images here -->
 
-                <img src="../images/fire_station_lrg.jpg"class="medimage left">
-                <img src="../images/mall_lrg.jpg"class="medimage left">
-                <img src="../images/pavillion_lrg.jpg"class="medimage left">
+                <a class="fancybox" rel="group" href="../images/fire_station_lrg.jpg">
+                    <img src="../images/fire_station_lrg.jpg"class="medimage left">
+                </a>
+                <a class="fancybox" rel="group" href="../images/mall_lrg.jpg">
+                    <img src="../images/mall_lrg.jpg"class="medimage left">
+                </a>
+                <a class="fancybox" rel="group" href="../images/pavillion_lrg.jpg">
+                    <img src="../images/pavillion_lrg.jpg"class="medimage left">
+                </a>
+
                 <div class="clear"></div>
             </div>
 
@@ -53,5 +89,6 @@
         <footer>
         </footer>
     </div>
+
   </body>
 </html>
