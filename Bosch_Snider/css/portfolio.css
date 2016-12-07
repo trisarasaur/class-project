@@ -1,9 +1,15 @@
 #hero {
-  margin: 25px auto 100px auto;
   width: 800px;
+  margin: 25px auto 100px auto;
 }
 
 .project-group {
   padding-top: 5px;
   padding-bottom: 25px;
+}
+
+
+.medimage {
+  margin:10px;
+  border-radius: 10px;
 }
