@@ -192,8 +192,8 @@ footer {
 }
 
 .medimage {
-  width: 245px;
-  height: 245px;
+  /*width: 245px;*/
+  /*height: 245px;*/
   margin:10px;
   border-radius: 10px;
   /*background-color: #ddd;*/
@@ -206,14 +206,14 @@ footer {
   /*background-color: #fff;
   /*background-color: rgba(255, 255, 255, .5)*/
 }
-
+/*
 .estimateimage{
   width:350px;
   height: 500px;
   border-radius: 10px;
 
 }
-
+*/
 .socialimage {
   width: 40px;
   height: 40px;
